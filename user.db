@@ -1,0 +1,19 @@
+{"a":42,"_id":"0wLAqhetTrBKEiBA"}
+{"name":"John Doe","age":25,"_id":"1GGCMa6g9EETeloP"}
+{"name":"John Doe","age":25,"_id":"4iRjG0fG6x0TyNdQ"}
+{"name":"John Doe","age":25,"_id":"B9FW7vC65V3CcrZC"}
+{"name":"John Smith","age":30,"_id":"DG81Vq0WTcNqw2N5"}
+{"name":"Jane Doe","age":26,"_id":"DGzyCuCnxyaP2vN7"}
+{"name":"John Smith","age":30,"_id":"KKYv110UVAQVvCqC"}
+{"a":5,"_id":"Sum0y2olD1TdT8zZ"}
+{"name":"phuc","age":20,"_id":"WeBRrZmv4gINxTVc"}
+{"a":5,"_id":"geTjLuWLWi3ffoIj"}
+{"_id":"id1","planet":"Mars","system":"solar","inhabited":false,"satellites":["Phobos","Deimos"]}
+{"_id":"id2","planet":"Earth","system":"solar","inhabited":true,"humans":{"genders":2,"eyes":true}}
+{"_id":"id3","planet":"Jupiter","system":"solar","inhabited":false}
+{"_id":"id4","planet":"Omicron Persei 8","system":"futurama","inhabited":true,"humans":{"genders":7}}
+{"_id":"id5","completeData":{"planets":[{"name":"Earth","number":3},{"name":"Mars","number":2},{"name":"Pluton","number":9}]}}
+{"name":"phuc","age":20,"_id":"mzrtFiWsC3OOJdID"}
+{"name":"Jane Doe","age":26,"_id":"ofyL6kxqkVwuV4lL"}
+{"name":"John Doe","age":25,"_id":"pDaIsBbaW6x2YpaO"}
+{"name":"John Doe","age":25,"_id":"qaH3UsiEbBxIUA6L"}
