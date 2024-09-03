@@ -15,15 +15,17 @@ const Stack = createNativeStackNavigator();
 export default function App() {
   return (
     <NavigationContainer>
-      <Stack.Navigator screenOptions={{headerShown: false,
+      <Stack.Navigator screenOptions={{
+        headerShown: false,
         animation: 'slide_from_right',
       }}
-      initialRouteName='Main'>
+        initialRouteName='Main'>
         <Stack.Screen name="Welcome" component={WelcomeScreen} />
         <Stack.Screen name="Login" component={LoginScreen} />
         <Stack.Screen name="Main" component={MainScreen} />
         <Stack.Screen name="FontComparisonExample" component={FontComparisonExample} />
       </Stack.Navigator>
+
     </NavigationContainer>
   )
 }

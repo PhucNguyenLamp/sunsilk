@@ -4,12 +4,13 @@ import React from 'react'
 import { Svg, Path } from 'react-native-svg';
 import { NavigationContainer } from '@react-navigation/native'
 import Arrow from '../assets/images/arrow.svg'
+import { SafeAreaView } from 'react-native-safe-area-context';
 const WelcomeScreen = (props) => {
     const onPress = () => {
         props.navigation.navigate('Login')
     }
     return (
-        <View style={styles.container}>
+        <SafeAreaView>
             <Image
                 source={require('../assets/images/welcome.png')}
                 style={styles.image}
@@ -18,7 +19,7 @@ const WelcomeScreen = (props) => {
                 Let&apos;s demolish your deadline.
             </Text>
             <Text style={styles.p}>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec.
+                Deadlines sucks, why not make it easier for you.
             </Text>
             <Pressable
                 style={styles.button}
@@ -27,7 +28,7 @@ const WelcomeScreen = (props) => {
             <Arrow width={24} height={24}/>
                 
             </Pressable>
-        </View>
+        </SafeAreaView>
     )
 }
 
