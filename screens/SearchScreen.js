@@ -1,7 +1,7 @@
 import { StyleSheet, Text, View, SafeAreaView, Button } from 'react-native'
 import React, {useState} from 'react'
 import Icon from '@expo/vector-icons/Ionicons'
-import SearchBar from 'react-native-elements'
+import { SearchBar } from 'react-native-elements'
 const SearchScreen = () => {
     const [search, setSearch] = useState("");
 
@@ -10,13 +10,17 @@ const SearchScreen = () => {
     };
 
     return (
-        <View style={styles.view}>
+        <SafeAreaView>
             <SearchBar
-                placeholder="Type Here..."
+                
+                searchIcon={{type: 'Ionicons', name: 'search', size: 24}}
+                clearIcon={{type: 'Ionicons', name: 'close', size: 24}}
+                platform='ios'
+                placeholder="Search..."
                 onChangeText={updateSearch}
                 value={search}
             />
-        </View>
+        </SafeAreaView>
     );
 
 }

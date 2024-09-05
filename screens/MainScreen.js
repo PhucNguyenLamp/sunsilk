@@ -12,7 +12,7 @@ const Tab = createBottomTabNavigator()
 
 const MainScreen = (props) => {
     return (
-        <Tab.Navigator screenOptions={{ headerShown: false }} initialRouteName='Search'>
+        <Tab.Navigator screenOptions={{ headerShown: false }} initialRouteName='Table'>
             <Tab.Screen name="Table" component={TableScreen} options={{
                 tabBarIcon: ({ focused, color }) => {
                     return focused ? <Icon name="home" size={24} color={color} /> : <Icon name="home-outline" size={24} color={color} />
