@@ -4,13 +4,12 @@ import React from 'react'
 import { Svg, Path } from 'react-native-svg';
 import { NavigationContainer } from '@react-navigation/native'
 import Arrow from '../assets/images/arrow.svg'
-import { SafeAreaView } from 'react-native-safe-area-context';
 const WelcomeScreen = (props) => {
     const onPress = () => {
         props.navigation.navigate('Login')
     }
     return (
-        <SafeAreaView>
+        <View>
             <Image
                 source={require('../assets/images/welcome.png')}
                 style={styles.image}
@@ -28,7 +27,7 @@ const WelcomeScreen = (props) => {
             <Arrow width={24} height={24}/>
                 
             </Pressable>
-        </SafeAreaView>
+        </View>
     )
 }
 

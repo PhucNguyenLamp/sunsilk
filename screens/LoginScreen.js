@@ -9,7 +9,7 @@ const LoginScreen = (props) => {
   };
 
   return (
-    <SafeAreaView>
+    <View>
       <View style={styles.imageContainer}>
         <Image
           source={require('../assets/images/welcome.png')}
@@ -30,7 +30,7 @@ const LoginScreen = (props) => {
           <FacebookLogo width={24} height={24} />
         </Pressable>
       </View>
-    </SafeAreaView>
+    </View>
   );
 };
 

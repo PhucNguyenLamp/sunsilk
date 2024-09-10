@@ -4,7 +4,7 @@ import Icon from '@expo/vector-icons/Ionicons'
 
 const ProfileScreen = () => {
     return (
-        <SafeAreaView style={styles.container}>
+        <View style={styles.container}>
             <Text style={styles.profile}> Profile </Text>
             <Image
                 source={require('../assets/images/users/avatar.png')}
@@ -23,7 +23,7 @@ const ProfileScreen = () => {
                 </View>
                 
             </View>
-        </SafeAreaView>
+        </View>
     )
 }
 

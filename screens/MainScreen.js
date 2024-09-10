@@ -1,19 +1,19 @@
 import { StyleSheet, Text, View, Button, SafeAreaView } from 'react-native'
 import React from 'react'
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs'
-import TableScreen from './TableScreen'
+import TableNavigatonScreen from './TableNavigatonScreen'
 import ProfileScreen from './ProfileScreen'
 import CalendarScreen from './CalendarScreen'
 import NotificationScreen from './NotificationScreen'
 import SearchScreen from './SearchScreen'
-
 import Icon from '@expo/vector-icons/Ionicons'
+
 const Tab = createBottomTabNavigator()
 
 const MainScreen = (props) => {
     return (
         <Tab.Navigator screenOptions={{ headerShown: false }} initialRouteName='Table'>
-            <Tab.Screen name="Table" component={TableScreen} options={{
+            <Tab.Screen name="Table" component={TableNavigatonScreen} options={{
                 tabBarIcon: ({ focused, color }) => {
                     return focused ? <Icon name="home" size={24} color={color} /> : <Icon name="home-outline" size={24} color={color} />
                 },

@@ -4,7 +4,7 @@ import Icon from '@expo/vector-icons/Ionicons'
 
 const NotificationScreen = () => {
     return (
-        <SafeAreaView>
+        <View>
             <View style={styles.top}>
                 <Text style={styles.header}>
                     <Text>Hello</Text>
@@ -12,7 +12,7 @@ const NotificationScreen = () => {
                 </Text>
                 <Icon name="add" style={styles.add} />
             </View>
-        </SafeAreaView>
+        </View>
     )
 }
 
