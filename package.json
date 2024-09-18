@@ -22,11 +22,13 @@
     "expo": "^51.0.31",
     "expo-constants": "~16.0.2",
     "expo-file-system": "~17.0.1",
+    "expo-image-picker": "^15.0.7",
     "expo-linking": "~6.3.1",
+    "expo-media-library": "^16.0.4",
     "expo-router": "~3.5.23",
     "expo-sqlite": "~14.0.6",
     "expo-status-bar": "~1.12.1",
-    "expo-system-ui": "^3.0.7",
+    "expo-system-ui": "~3.0.7",
     "nedb": "^1.8.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
@@ -47,7 +49,9 @@
     "eslint": "^9.9.0",
     "eslint-plugin-react": "^7.35.0",
     "globals": "^15.9.0",
-    "react-native-svg-transformer": "^1.5.0"
+    "react-native-svg-transformer": "^1.5.0",
+    "webpack": "^5.94.0",
+    "webpack-cli": "^5.1.4"
   },
   "private": true
 }

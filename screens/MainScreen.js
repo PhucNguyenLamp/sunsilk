@@ -10,9 +10,9 @@ import Icon from '@expo/vector-icons/Ionicons'
 
 const Tab = createBottomTabNavigator()
 
-const MainScreen = (props) => {
+const MainScreen = () => {
     return (
-        <Tab.Navigator screenOptions={{ headerShown: false }} initialRouteName='Table'>
+        <Tab.Navigator screenOptions={{ headerShown: false }} initialRouteName='Search'>
             <Tab.Screen name="Table" component={TableNavigatonScreen} options={{
                 tabBarIcon: ({ focused, color }) => {
                     return focused ? <Icon name="home" size={24} color={color} /> : <Icon name="home-outline" size={24} color={color} />

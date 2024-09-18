@@ -7,8 +7,8 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack'
 import WelcomeScreen from './screens/WelcomeScreen';
 import LoginScreen from './screens/LoginScreen';
 import MainScreen from './screens/MainScreen';
-import Ionicons from 'react-native-ionicons'
 import { StatusBar } from 'expo-status-bar'
+
 
 const Stack = createNativeStackNavigator();
 export default function App() {
